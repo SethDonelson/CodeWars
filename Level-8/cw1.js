@@ -32,3 +32,10 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   function evenTrue(n){
    return n % 2 === 0 ? true : false;
   }
+
+
+  //make a string upper case
+
+  function makeUpperCase(str) {
+    return str.toUpperCase()
+  }
