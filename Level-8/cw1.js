@@ -39,3 +39,10 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   function makeUpperCase(str) {
     return str.toUpperCase()
   }
+
+
+  //return the argument squared
+
+  function square(n){
+    return Number(n**2)
+  }
