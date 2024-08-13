@@ -46,3 +46,9 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   function square(n){
     return Number(n**2)
   }
+
+
+  //return response with a name added
+  function greet(name){
+    return `Hello, ${name} how are you doing today?`
+  }
