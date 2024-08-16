@@ -33,6 +33,11 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
    return n % 2 === 0 ? true : false;
   }
 
+  //return number of liter drank given the hours, drinks 0.5L and hour, round down
+  function litres(time) {
+    return Math.floor(time * 0.5)
+  }
+
 
   //make a string upper case
 
