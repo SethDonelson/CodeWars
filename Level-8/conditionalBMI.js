@@ -28,3 +28,19 @@ function bmi(weight, height) {
     
   }
   
+
+
+//cap is total allowed on the bus, add on and wait, if enough space then return 0, otherwise return on + wait -cap
+  function enough(cap, on, wait) {
+    let pTotal = on + wait
+    if(pTotal > cap){
+      return pTotal - cap
+    } else {
+      return 0
+    }
+  }
+  
+  //cap is the total 
+  //on and wait should add up to the cap
+  //if on + wait is <= cap  return 0
+  //else return cap  -  on + wait
