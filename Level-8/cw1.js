@@ -58,6 +58,11 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
     return `Hello, ${name} how are you doing today?`
   }
 
+  //return hello world
+  function greet(){
+    return "hello world!"
+  }
+
 
   //multiply by 2 
   function doubleInteger(i) {
