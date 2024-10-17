@@ -68,3 +68,8 @@ const zeroFuel = (distanceToPump, mpg, fuelLeft) => {
   function doubleInteger(i) {
     return i*2
   }
+
+  //is base divisible by factor
+  function checkForFactor (base, factor) {
+    return base % factor == 0 ? true : false ;
+  }
