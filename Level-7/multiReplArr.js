@@ -30,7 +30,16 @@ function nerdify(txt){
    return arr
    }
   
- 
+
+   //same with replaceAll,   put return at the top as the method chains and acts on each new one
+   function nerdify(txt){
+   return txt
+   .replaceAll('a', '4')
+   .replaceAll('A', '4')
+   .replaceAll('e', '3')
+   .replaceAll('E', '4')
+   .replaceAll('l', '1')
+   }
   
   //give a string, no array, no numbers
   //returning the string with a/A as 4, e/E as 3, l as 1
